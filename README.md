@@ -10,7 +10,7 @@ Create an account at http://openshift.redhat.com and set up your local machine w
 Create a Python-2.7 application (you can call your application whatever you want) and change into the application directory.
 
 <pre>
-    rhc app create myapp python-2.7 --from-code https://github.com/openshift/pubnub-openshift-quickstart
+    rhc app create myapp python-2.7 --from-code https://github.com/pubnub/pubnub-openshift-quickstart
     cd myapp
 </pre>
 
