@@ -41,6 +41,6 @@ More Information
 ----------------
 For PubNub's developer resources visit http://www.pubnub.com/devcenter
 
-For more info on PubNub's Python SDK visit://github.com/pubnub/python
+For more info on PubNub's Python SDK visit https://github.com/pubnub/python
 
 For all available PubNub SDKs visit: https://github.com/pubnub/pubnub-api
