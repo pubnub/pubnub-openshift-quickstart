@@ -210,14 +210,14 @@ def get_body():
   </tr>
   </table>
   <h1>
-    Welcome to OpenShift - PubNub
+    Welcome to OpenShift-PubNub Quickstart
   </h1>
   <p>
 This is a sample WSGI application running on Python 2.7 demonstrating how to distribute live stock quotes for a few user-specified ticker symbols from Google Finance. Quotes are published repeadly (every 5 seconds, one ticker at a time) to a channel via PubNub's real-time network to an audience of web/mobile users who listen on that channel.
   </p>
   <h2>Use Instructions</h2>
   <p>
-To receive quotes, open the <a href="http://www.pubnub.com/console" target="_blank">PubNub dev console</a> entering <b>demo</b> for a subscribe key and <b>OpenShift</b> for a channel. To publish quotes, enter up to 3 tickers below and submit the form. You will see live ticker quotes updated every 5 seconds in the console.
+To receive quotes, open the <a href="http://www.pubnub.com/console" target="_blank">PubNub dev console</a> and enter your subscribe key (<b>demo</b> by default) and <b>OpenShift</b> for a channel. To publish quotes, enter up to 3 tickers below and submit the form. You will see live ticker quotes updated every 5 seconds in the console.
   </p>
   <form name="PublishForm" method="POST" action="">
   <pre>
@@ -232,21 +232,13 @@ To receive quotes, open the <a href="http://www.pubnub.com/console" target="_bla
         this.value='Quotes Submitted...'; 
         document.PublishForm.submit();">
   </form>
-  <h2>Your Project</h2>
-  <p>
-    Prior to deploying your own app, <a href="http://www.pubnub.com/free-trial" target="_blank">register a PubNub account</a> and replace the demo keys with your own publish and subscribe keys. To commit to your new project, go to your project's git repo (created with the <b>rhc app create</b> command). Make your changes, then run:
-  </p>
-  <pre>
-    git commit -a -m 'Some commit message'
-    git push
-  </pre>
-  <p>
-    Then reload this page.
-  </p>
   <h2>
-    What's next?
+    Reference Info
   </h2>
   <ul>
+    <li>
+      Create your own <a href="https://github.com/pubnub/pubnub-openshift-quickstart">OpenShift-PubNub Quickstart</a>
+    </li>
     <li>
       Why not visit us at <a href="http://openshift.redhat.com">http://openshift.redhat.com</a>, or
     </li>
